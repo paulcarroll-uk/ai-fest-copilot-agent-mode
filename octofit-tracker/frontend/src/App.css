@@ -1,0 +1,118 @@
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color */
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50px;
+  pointer-events: none;
+  margin-right: 1rem;
+  animation: none; /* Remove spinning animation */
+}
+
+.App-header {
+  background-color: #4682b4; /* Steel blue */
+  min-height: auto; /* Adjust height to fit content */
+  display: flex;
+  flex-direction: row; /* Align logo and title horizontally */
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav {
+  background-color: #2b6cb0; /* Darker blue for navigation */
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex; /* Ensure menu items are displayed inline */
+  align-items: center; /* Align items vertically */
+}
+
+nav a {
+  color: #f0f8ff; /* Light blue links */
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  display: inline-block; /* Ensure links are inline */
+}
+
+nav a:hover {
+  color: #ffeb3b; /* Yellow on hover */
+}
+
+.navbar-collapse {
+  display: flex !important; /* Ensure the menu is visible */
+  flex-direction: row; /* Align menu items horizontally */
+}
+
+h1 {
+  color: #2b6cb0; /* Dark blue headings */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th {
+  background-color: #4682b4; /* Steel blue */
+  color: white;
+  padding: 1rem;
+}
+
+table td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+  background-color: #f0f8ff; /* Light blue */
+}
+
+button {
+  background-color: #4682b4; /* Steel blue */
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5a9bd4; /* Lighter steel blue */
+}
+
+footer {
+  background-color: #2b6cb0;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
